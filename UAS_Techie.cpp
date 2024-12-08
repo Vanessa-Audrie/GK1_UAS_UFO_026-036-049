@@ -96,27 +96,27 @@ void keyboard(unsigned char key, int x, int y)
 	{
 	case 'W':
 	case 'w':
-		fy += 2;
+		fy += 3;
 		break;
 	case 'S':
 	case 's':
-		fy -= 2;
+		fy -= 3;
 		break;
 	case 'A':
 	case 'a':
-		fx -= 2;
+		fx -= 3;
 		break;
 	case 'D':
 	case 'd':
-		fx += 2;
+		fx += 3;
 		break;
 	case 'O':
 	case 'o':
-		fz -= 2;
+		fz -= 3;
 		break;
 	case 'L':
 	case 'l':
-		fz += 2;
+		fz += 3;
 		break;
 	}
 }
